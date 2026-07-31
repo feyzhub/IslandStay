@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Builds
+/coverage
+/client/dist
+/server/dist
+
+# Environment variables (NEVER COMMIT)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
